@@ -1,0 +1,75 @@
+[{
+    "text": ":smile:",
+    "id": "b2e8d7c2-dc89-4abb-b640-a84dd09beedd",
+    "contextId": "c0dc91a6-d0c8-4802-9c01-a5c97b68e55a",
+    "timestamp": "2014-12-31T11:18:35.812Z",
+    "initiator": {
+        "type": "identity",
+        "id": "844eeaf2-b0a7-49ff-8c91-62146edb09c1"
+    }
+},
+ {
+    "text": ":smile:",
+    "id": "b2e8d7c2-dc89-4abb-b640-a84dd09beedd",
+    "contextId": "c0dc91a6-d2f4-4802-9c01-a5c97b68e55a",
+    "timestamp": "2014-12-31T11:18:35.812Z",
+    "initiator": {
+        "type": "identity",
+        "id": "844eeaf2-b0a7-49ff-8c91-62146edb09c1"
+    }
+}, {
+    "text": ":smile:",
+    "id": "b2e8d7c2-dc89-4abb-b640-a84dd09beedd",
+    "contextId": "c0dc91a6-asdf-4802-9c01-a5c97b68e55a",
+    "timestamp": "2014-12-31T11:18:35.812Z",
+    "initiator": {
+        "type": "identity",
+        "id": "844eeaf2-b0a7-49ff-8c91-62146edb09c1"
+    }
+}, {
+    "text": ":smile:",
+    "id": "b2e8d7c2-sdff-4abb-b640-a84dd09beedd",
+    "contextId": "c0dc91a6-asdf-4802-9c01-a5c97b68e55a",
+    "timestamp": "2014-12-31T11:18:35.812Z",
+    "initiator": {
+        "type": "identity",
+        "id": "844eeaf2-b0a7-49ff-8c91-62146edb09c1"
+    }
+}, {
+    "text": ":smile:",
+    "id": "b2e8d7c2-dc89-4abb-b640-a84dd09beedd",
+    "contextId": "c0dc91a6-d2f4-4802-9c01-a5c97b68e55a",
+    "timestamp": "2014-12-31T11:18:35.812Z",
+    "initiator": {
+        "type": "identity",
+        "id": "844eeaf2-fsdd-49ff-8c91-62146edb09c1"
+    }
+},
+ {
+    "text": "Hello",
+    "id": "59449e47-a3ff-4001-a355-cf75a84611c3",
+    "contextId": "c0dc91a6-d0c8-4802-9c01-a5c97b68e55a",
+    "timestamp": "2014-12-31T11:14:05.093Z",
+    "initiator": {
+        "type": "identity",
+        "id": "844eeaf2-b0a7-49ff-8c91-62146edb09c1"
+    }
+}, {
+    "text": "\t:blush:",
+    "id": "02f66e3f-bb48-4806-875a-2296de6db6d4",
+    "contextId": "c0dc91a6-d0c8-4802-9c01-a5c97b68e55a",
+    "timestamp": "2014-12-31T11:14:00.365Z",
+    "initiator": {
+        "type": "identity",
+        "id": "61c6a107-c8c7-4414-a811-882538b5bf00"
+    }
+}, {
+    "text": "Hello",
+    "id": "6ba8a5d2-7c79-4fdc-b035-ea0d986e29f3",
+    "contextId": "c0dc91a6-d0c8-4802-9c01-a5c97b68e55a",
+    "timestamp": "2014-12-31T11:13:54.017Z",
+    "initiator": {
+        "type": "identity",
+        "id": "61c6a107-c8c7-4414-a811-882538b5bf00"
+    }
+}]

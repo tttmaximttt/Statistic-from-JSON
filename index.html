@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>testsTask</title>
+	<link rel="stylesheet" href="style/style.css"/>
+</head>
+<body>
+
+	<ul class="mainList">
+
+	<section class="mainList__content">
+		<h2 class="mainList__content_header">MASSAGES</h2>
+		<ul data-bind="foreach: messageArr">
+				<li><p data-bind="text: $data"></p></li>
+		</ul>
+	</section>
+
+	<section class="mainList__content">
+		<h2 class="mainList__content_header">ROOMS</h2>
+		<ul class="contentList">
+			<li data-bind="foreach: roomsArr">
+				<h3 class="contentList__header">Room ID:
+					<span class="contentList__header_text" data-bind="text: id"></span>
+				</h3>
+				<ul class="contentList__list">
+					<h4 class="contentList__list_header">users ID:</h4>
+					<li class="contentList__list_id" data-bind="foreach: users">
+						<p data-bind="text: $data"></p>
+					</li>
+
+					<li class="contentList__list_msg">
+						<span class="spn">massages in room:</span>
+						<span data-bind="text: messageCount"></span>
+					</li>
+
+				</ul>
+			</li>
+		</ul>
+	</section>
+
+			<section class="mainList__content">
+				<h2 class="mainList__content_header">USERS</h2>
+				<ul class="contentList">
+					<li data-bind="foreach: usersArr">
+						<h3 class="contentList__header">User ID:
+							<span class="contentList__header_text" data-bind="text: id"></span>
+						</h3>
+						<ul class="contentList__list">
+							<h4 class="contentList__list_header">rooms ID:</h4>
+							<li class="contentList__list_id" data-bind="foreach: rooms">
+								<p data-bind="text: $data"></p>
+							</li>
+							<li class="contentList__list_msg">
+								<span class="spn">sent massages:</span>
+								<span data-bind="text: messagesCount"></span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+
+</ul>
+	<!--entry point-->
+	<script data-main="js/entrPoint/main" src="bower_components/requirejs/require.js"></script>
+</body>
+</html>

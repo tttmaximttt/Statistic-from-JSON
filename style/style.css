@@ -1,0 +1,33 @@
+
+body {
+  background-color: #cccccc;
+}
+.mainList {
+  list-style: none;
+}
+.mainList__content {
+  margin: 0 0 20px 0;
+  border: 2px solid #5e7d00;
+}
+.mainList__content_header {
+  margin: 0 0 0 10px;
+}
+.contentList {
+  list-style: none;
+}
+.contentList__header_text {
+  background-color: #b5d592;
+}
+.contentList__list {
+  border: 1px dotted #cf867e;
+}
+.contentList__list_id {
+  list-style: none;
+  margin: 0 0 0 20px;
+}
+.contentList__list_msg {
+  list-style: none;
+}
+.spn {
+  font-weight: 900;
+}
